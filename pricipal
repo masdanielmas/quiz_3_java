@@ -1,0 +1,18 @@
+/**
+ * Primera clase que es ejecutada
+ */
+public class Principal {
+
+    /**
+     * Primer método que se ejecuta en mi aplicación
+     * @param args
+     *
+     * Complejidad temporal: O(1) Tiempo Constante
+     */
+public static void main(String[] args) {
+        producto articulo = new producto("adidas", 350000, 10249);
+        articulo.nom();
+        articulo.pre();
+        articulo.cod();
+    }
+}
