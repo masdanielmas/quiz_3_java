@@ -1,0 +1,70 @@
+import java.util.Scanner;
+
+/**
+ * Clase producto
+ */
+public class producto {
+    /***************************************************/
+    /******************** Atributos ********************/
+    /***************************************************/
+    String nombre;
+    int precio;
+    int codigo;
+    String nombreArt;
+    int precioArt;
+    int codigoArt;
+
+    /***************************************************/
+    /******************** Métodos ********************/
+    /***************************************************/
+
+    /**
+     * Constructor de la clase Carro: Inicializa los atributos de mi clase
+     * @param nombre
+     * @param precio
+     * @param codigo
+     * 
+     * Complejidad temporal: O(1) Tiempo Constante
+     */
+    public producto(String nombre, int precio, int codigo){
+        this.nombre = nombre;
+        this.precio = precio;
+        this.codigo = codigo;
+    }
+
+    /**
+     * Método que muestra el nombre del articulo
+     * @return boolean: Indica el nombre del articulo
+     *
+     * Complejidad temporal: O(1) Tiempo Constante
+     */
+    boolean nom(){
+        String nombreArt = new String("Adidas");
+        System.out.println("la refencia es : " + nombreArt );
+        return true;
+    }
+
+    /**
+     * Método que nombra el precio del articulo
+     * @return boolean: Indica el valor del articulo
+     *
+     * Complejidad temporal: O(1) Tiempo Constante
+     */
+    boolean pre(){
+        int precioArt = 350000 ;
+        System.out.println("Me el precio es : " + precioArt);
+        return true;
+    }
+
+    /**
+     * Método que indica el codigo del articulo
+     * @return boolean: Indica el codigo
+     *
+     * Complejidad temporal: O(1) Tiempo Constante
+     */
+    boolean cod(){
+        int codigoArt = 10249;
+        System.out.println("el codigo del articulo es: "+ codigoArt);
+        return true;
+    }
+}
